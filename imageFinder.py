@@ -55,7 +55,7 @@ def process_input_image(image_path):
     return list(all_matching_images)
 
 # Path to the input image
-input_image_path = 'Testing/IMG-20240726-WA0019.jpg'
+input_image_path = 'Testing/tommy-testing.jpeg'
 
 matching_images = process_input_image(input_image_path)
 

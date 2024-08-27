@@ -87,7 +87,7 @@ def process_image(image_path):
 def process_directory(directory):
     """Process all images in the directory."""
     for filename in os.listdir(directory):
-        if filename.endswith(".jpg") or filename.endswith(".png"):  # Add more extensions as needed
+        if filename.endswith(".jpg") or filename.endswith(".png") or filename.endswith(".jpeg") or filename.endswith(".webp"):  # Add more extensions as needed
             image_path = os.path.join(directory, filename)
             process_image(image_path)
 
